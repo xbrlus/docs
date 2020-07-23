@@ -1,0 +1,376 @@
+/* Taxonomy Development Handbook */
+a          {color: #EA622B; text-decoration: none}
+a:link     {color: #EA622B; text-decoration: none}
+a:hover	   {color: #EA622B; text-decoration: underline}
+a:visited  {color: #EA622B}
+a:active   {color: rgb(0,0,0)}
+.tdh_001   {background-color: #F2F2F2; padding-right: 5.4pt; padding-left: 5.4pt; text-align: justify}
+.tdh_002   {background-color: white}
+.tdh_003   {border-bottom: #767171 1pt solid; padding-right: 5.75pt; padding-bottom: 5.75pt; padding-left: 5.75pt}
+.tdh_004   {border-bottom: #767171 1pt solid; padding-top: 6pt; padding-bottom: 6pt; text-align: justify}
+.tdh_005   {border-bottom: #767171 1pt solid; padding-top: 6pt; padding-bottom: 6pt; text-align: left}
+.tdh_006   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-align: justify}
+.tdh_007   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-align: left}
+.tdh_008   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-align: left; width: 22%}
+.tdh_009   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-align: left; width: 3%}
+.tdh_010   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-align: left; width: 40%}
+.tdh_011   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-align: left; width: 57%}
+.tdh_012   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-align: left; width: 75%}
+.tdh_013   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-indent: 13.5pt; text-align: justify}
+.tdh_014   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-indent: 13.5pt; text-align: left}
+.tdh_015   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-indent: 15.15pt; text-align: justify}
+.tdh_016   {border-bottom: #767171 1pt solid; padding-top: 6pt; text-indent: 15.1pt; text-align: justify}
+.tdh_017   {border-bottom: #767171 1pt solid; vertical-align: bottom; padding-top: 6pt; text-align: left}
+.tdh_018   {border-bottom: #767171 1pt solid; vertical-align: bottom; text-align: center}
+.tdh_019   {border-bottom: #767171 1pt solid; vertical-align: bottom; width: 25%; padding-top: 6pt; text-align: left}
+.tdh_020   {border-bottom: #767171 1pt solid; vertical-align: bottom; width: 36%; padding-top: 6pt; text-align: left}
+.tdh_021   {border-bottom: #767171 1pt solid; vertical-align: top; background-color: #F2F2F2; text-align: center}
+.tdh_022   {border-bottom: #767171 1pt solid; vertical-align: top; background-color: #F2F2F2; text-align: left}
+.tdh_023   {border-bottom: #767171 1pt solid; vertical-align: top; padding-top: 6pt; text-align: left}
+.tdh_024   {border-bottom: #767171 1pt solid; vertical-align: top; width: 21%; padding-top: 6pt; text-align: left}
+.tdh_025   {border-bottom: #767171 1pt solid; vertical-align: top; width: 30%; padding-top: 6pt; text-align: left}
+.tdh_026   {border-bottom: #767171 1pt solid; vertical-align: top; width: 43%; padding-top: 6pt; text-align: left}
+.tdh_027   {border-bottom: #767171 1pt solid; vertical-align: top; width: 45%; padding-top: 6pt; text-align: left}
+.tdh_028   {border-bottom: #767171 1pt solid; width: 2%; padding-top: 6pt; text-align: left}
+.tdh_029   {border-bottom: #767171 1pt solid; width: 20%; padding-top: 6pt; padding-bottom: 6pt; text-align: justify}
+.tdh_030   {border-bottom: #767171 1pt solid; width: 21%; padding-top: 6pt; padding-bottom: 6pt; text-align: justify}
+.tdh_031   {border-bottom: #767171 1pt solid; width: 21%; padding-top: 6pt; text-align: justify}
+.tdh_032   {border-bottom: #767171 1pt solid; width: 22%; padding-top: 6pt; text-align: left}
+.tdh_033   {border-bottom: #767171 1pt solid; width: 23%; padding-top: 6pt; text-align: left}
+.tdh_034   {border-bottom: #767171 1pt solid; width: 3%; padding-right: 5.75pt; padding-bottom: 5.75pt; padding-left: 5.75pt}
+.tdh_035   {border-bottom: #767171 1pt solid; width: 3%; padding-top: 6pt; padding-bottom: 6pt; text-align: justify}
+.tdh_036   {border-bottom: #767171 1pt solid; width: 3%; padding-top: 6pt; text-align: justify}
+.tdh_037   {border-bottom: #767171 1pt solid; width: 3%; padding-top: 6pt; text-align: left}
+.tdh_038   {border-bottom: #767171 1pt solid; width: 36%; padding-top: 6pt; text-indent: 15.15pt; text-align: justify}
+.tdh_039   {border-bottom: #767171 1pt solid; width: 40%; padding-top: 6pt; text-align: left}
+.tdh_040   {border-bottom: #767171 1pt solid; width: 43%; padding-top: 6pt; text-align: justify}
+.tdh_041   {border-bottom: #767171 1pt solid; width: 47%; padding-top: 6pt; text-align: justify}
+.tdh_042   {border-bottom: #767171 1pt solid; width: 47%; padding-top: 6pt; text-align: left}
+.tdh_043   {border-bottom: #767171 1pt solid; width: 47%; padding-top: 6pt; text-indent: 13.5pt; text-align: justify}
+.tdh_044   {border-bottom: #767171 1pt solid; width: 47%; padding-top: 6pt; text-indent: 13.5pt; text-align: left}
+.tdh_045   {border-bottom: #767171 1pt solid; width: 50%; padding-top: 6pt; text-align: left}
+.tdh_046   {border-bottom: #767171 1pt solid; width: 53%; padding-top: 6pt; padding-bottom: 6pt; text-align: justify}
+.tdh_047   {border-bottom: #767171 1pt solid; width: 57%; padding-top: 6pt; text-align: left}
+.tdh_048   {border-bottom: #767171 1pt solid; width: 75%; padding-top: 6pt; text-align: left}
+.tdh_049   {border-bottom: #7F7F7F 1pt solid; width: 28%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: justify}
+.tdh_050   {border-bottom: #7F7F7F 1pt solid; width: 72%; padding-right: 5.4pt; padding-left: 5.4pt; text-align: justify}
+.tdh_051   {border-bottom: #BFBFBF 1pt solid; width: 1%; text-align: justify}
+.tdh_052   {border-bottom: Black 1pt solid; padding-right: 5.4pt; padding-left: 5.4pt; text-align: justify}
+.tdh_053   {border-bottom: Black 1pt solid; vertical-align: top; background-color: #F2F2F2; text-align: center}
+.tdh_054   {border-bottom: Black 1pt solid; vertical-align: top; background-color: #F2F2F2; text-align: left}
+.tdh_055   {border-bottom: Black 1pt solid; vertical-align: top; padding: 2.15pt 5.75pt}
+.tdh_056   {border-bottom: Black 1pt solid; vertical-align: top; text-align: center}
+.tdh_057   {border-bottom: Black 1pt solid; vertical-align: top; text-align: left}
+.tdh_058   {border-bottom: Silver 1pt solid; border-top: Silver 1pt solid; border-left: Silver 1pt solid; padding-left: 3pt; font-weight: bold; text-align: left; padding-top: 3pt; padding-bottom: 3pt}
+.tdh_059   {border-bottom: Silver 1pt solid; border-top: Silver 1pt solid; border-left: Silver 1pt solid; padding-left: 3pt; text-align: left; padding-top: 3pt; padding-bottom: 3pt}
+.tdh_060   {border-bottom: Silver 1pt solid; border-top: Silver 1pt solid; border-left: Silver 1pt solid; padding-right: 3pt; text-align: right; padding-top: 3pt; padding-bottom: 3pt}
+.tdh_061   {border-right: #7F7F7F 1pt solid; background-color: white; padding-right: 5.4pt; padding-left: 5.4pt; text-align: justify}
+.tdh_062   {border-right: #7F7F7F 1pt solid; border-bottom: Black 1pt solid; background-color: white; padding-right: 5.4pt; padding-left: 5.4pt; text-align: justify}
+.tdh_063   {border-right: #BFBFBF 1pt solid; border-bottom: #BFBFBF 1pt solid; border-left: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_064   {border-right: #BFBFBF 1pt solid; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_065   {border-right: #BFBFBF 1pt solid; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: left}
+.tdh_066   {border-right: #BFBFBF 1pt solid; border-bottom: #BFBFBF 1pt solid; padding: 2.15pt 5.75pt}
+.tdh_067   {border-right: #BFBFBF 1pt solid; vertical-align: top; border-bottom: #BFBFBF 1pt solid; border-left: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_068   {border-right: #BFBFBF 1pt solid; vertical-align: top; border-bottom: #BFBFBF 1pt solid; border-left: #BFBFBF 1pt solid; padding: 2.15pt 5.75pt}
+.tdh_069   {border-right: #BFBFBF 1pt solid; vertical-align: top; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_070   {border-right: #BFBFBF 1pt solid; vertical-align: top; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: left}
+.tdh_071   {border-right: #BFBFBF 1pt solid; vertical-align: top; border-bottom: #BFBFBF 1pt solid; padding: 2.15pt 5.75pt}
+.tdh_072   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 22%; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_073   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 22%; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: left}
+.tdh_074   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 24%; border-bottom: #BFBFBF 1pt solid; border-left: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_075   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 25%; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_076   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 29%; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_077   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 5%; border-bottom: #BFBFBF 1pt solid; border-left: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_078   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 7%; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_079   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 72%; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_080   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 73%; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_081   {border-right: #BFBFBF 1pt solid; vertical-align: top; width: 8%; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_082   {border-right: Silver 1pt solid; border-top: Silver 1pt solid; border-left: Silver 1pt solid; padding-right: 3pt; text-align: right; padding-top: 3pt; padding-bottom: 3pt}
+.tdh_083   {border-right: Silver 1pt solid; border-top: Silver 1pt solid; border-left: Silver 1pt solid; padding-right: 3pt; text-align: right; padding-top: 3pt; padding-bottom: 3pt; width: 5%}
+.tdh_084   {border-right: black 1pt solid; border-bottom: black 1pt solid; border-left: black 1pt solid; padding-top: 2pt; padding-right: 2pt; padding-left: 2pt; text-align: center}
+.tdh_085   {border-right: black 1pt solid; border-left: black 1pt solid; padding-top: 2pt; padding-right: 2pt; padding-left: 2pt; text-align: left}
+.tdh_086   {border-right: black 1pt solid; padding-top: 2pt; padding-right: 2pt; padding-left: 2pt; text-align: left}
+.tdh_087   {border-right: black 1pt solid; padding: 2pt}
+.tdh_088   {border-top: #BFBFBF 1pt solid; border-right: #BFBFBF 1pt solid; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_089   {border-top: #BFBFBF 1pt solid; border-right: #BFBFBF 1pt solid; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: left}
+.tdh_090   {border-top: #BFBFBF 1pt solid; border-right: #BFBFBF 1pt solid; border-bottom: #BFBFBF 1pt solid; padding: 2.15pt 5.75pt}
+.tdh_091   {border-top: #BFBFBF 1pt solid; vertical-align: top; border-right: #BFBFBF 1pt solid; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: center}
+.tdh_092   {border-top: #BFBFBF 1pt solid; vertical-align: top; width: 24%; border-right: #BFBFBF 1pt solid; border-bottom: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: center}
+.tdh_093   {border-top: Black 1pt solid; border-right: Black 1pt solid; border-bottom: Black 1pt solid; border-left: black 1pt solid; padding-top: 2pt; padding-right: 2pt; padding-left: 2pt; text-align: left}
+.tdh_094   {border-top: Black 1pt solid; border-right: Black 1pt solid; border-bottom: Black 1pt solid; padding: 2pt}
+.tdh_095   {border-top: Black 1pt solid; font-size: 1pt}
+.tdh_096   {border-top: Gray 1pt solid; padding-top: 4pt; width: 100%; text-align: left}
+.tdh_097   {border-top: Gray 1pt solid; text-align: center; width: 100%}
+.tdh_098   {border-top: Silver 1pt solid; border-left: Silver 1pt solid; padding-left: 3pt; font-weight: bold; width: 46%; text-align: left; padding-top: 3pt; padding-bottom: 3pt}
+.tdh_099   {border-top: Silver 1pt solid; border-left: Silver 1pt solid; padding-left: 3pt; text-align: left; padding-top: 3pt; padding-bottom: 3pt; width: 44%}
+.tdh_100   {border-top: Silver 1pt solid; border-left: Silver 1pt solid; padding-right: 3pt; width: 5%; text-align: right; padding-top: 3pt; padding-bottom: 3pt}
+.tdh_101   {border-top: Silver 1pt solid; padding-left: 3pt; font-weight: bold; text-align: left; padding-top: 3pt; padding-bottom: 3pt; border-left: Silver 1pt solid}
+.tdh_102   {border-top: Silver 1pt solid; padding-left: 3pt; text-align: left; padding-top: 3pt; padding-bottom: 3pt; border-left: Silver 1pt solid}
+.tdh_103   {border-top: Silver 1pt solid; padding-right: 3pt; text-align: right; padding-top: 3pt; padding-bottom: 3pt; border-left: Silver 1pt solid}
+.tdh_104   {border-top: black 1pt solid; width: 30%; border-right: black 1pt solid; border-bottom: black 1pt solid; padding-top: 2pt; padding-right: 2pt; padding-left: 2pt; text-align: center}
+.tdh_105   {border-top: black 1pt solid; width: 47%; border-right: black 1pt solid; border-bottom: black 1pt solid; padding-top: 2pt; padding-right: 2pt; padding-left: 2pt; text-align: center}
+.tdh_106   {border-top: silver 1pt solid; font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 6pt; text-align: justify}
+.tdh_107   {border: #BFBFBF 1pt solid; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_108   {border: #BFBFBF 1pt solid; vertical-align: top; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: center}
+.tdh_109   {border: #BFBFBF 1pt solid; vertical-align: top; width: 28%; padding-top: 2.15pt; padding-right: 5.75pt; padding-left: 5.75pt; text-align: justify}
+.tdh_110   {border: Silver 1pt solid; padding-right: 3pt; text-align: right; padding-top: 3pt; padding-bottom: 3pt}
+.tdh_111   {border: black 1pt solid; width: 23%; padding-top: 2pt; padding-right: 2pt; padding-left: 2pt; text-align: center}
+.tdh_112   {clear: both}
+.tdh_113   {color: #00698F}
+.tdh_114   {color: #222222; background-color: white}
+.tdh_115   {color: #231F20}
+.tdh_116   {color: #2E74B5}
+.tdh_117   {color: #1F3763}
+.tdh_118   {color: #569CD6}
+.tdh_119   {color: #5B9BD5}
+.tdh_120   {color: #7030A0}
+.tdh_121   {color: #7B7B7B}
+.tdh_122   {color: #92CAF4}
+.tdh_123   {color: #AE78D6}
+.tdh_124   {color: #BBA08C}
+.tdh_125   {color: #D69D85}
+.tdh_126   {color: gray}
+.tdh_127   {color: silver}
+.tdh_128   {font-family: Arial, Helvetica, Sans-Serif; color: #2F5496}			/* In text link color */
+.tdh_129   {font-family: Arial, Helvetica, Sans-Serif; font-weight: normal}
+.tdh_130   {font-family: Roboto; color: #222222; background-color: white}
+.tdh_131   {font-family: Segoe UI Symbol,sans-serif}
+.tdh_132   {font-size: 65%; vertical-align: 35%}
+.tdh_133   {font-size: 8pt}
+.tdh_134   {font-size: 9pt}
+.tdh_135   {font-style: italic}
+.tdh_136   {font-weight: bold}
+.tdh_137   {font: 10pt Arial, Helvetica, Sans-Serif; color: red; margin: 0 0 8pt; text-align: justify}
+.tdh_138   {font: 10pt Arial, Helvetica, Sans-Serif; margin-top: 0; margin-bottom: 0}
+.tdh_139   {font: 10pt Arial, Helvetica, Sans-Serif; margin-top: 0; margin-bottom: 0; text-align: center}
+.tdh_140   {font: 10pt Arial, Helvetica, Sans-Serif; margin-top: 0; margin-bottom: 2pt}
+.tdh_141   {font: 10pt Arial, Helvetica, Sans-Serif; margin-top: 0; margin-bottom: 3pt}
+.tdh_142   {font: 10pt Arial, Helvetica, Sans-Serif; margin-top: 0; margin-bottom: 4pt}
+.tdh_143   {font: 10pt Arial, Helvetica, Sans-Serif; margin-top: 0; margin-bottom: 8pt}
+.tdh_144   {font: 10pt Arial, Helvetica, Sans-Serif; margin-top: 0; margin-bottom: 8pt; text-align: center}
+.tdh_145   {font: 10pt Arial, Helvetica, Sans-Serif; margin-top: 0in; list-style-type: decimal}
+.tdh_146   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 0 0.25in; text-align: center}
+.tdh_147   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 0 0.25in; text-align: justify}
+.tdh_148   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 0 0.25in; text-align: left}
+.tdh_149   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 0 0.5in; text-align: justify; text-indent: -0.25in}
+.tdh_150   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 0 0.5in; text-align: left}
+.tdh_151   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 0.25in; text-align: justify}
+.tdh_152   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 2pt; text-align: justify}
+.tdh_153   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 2pt; text-align: justify; text-indent: 0.25in}
+.tdh_154   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 3pt; text-align: center}
+.tdh_155   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 3pt; text-align: justify}
+.tdh_156   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 4pt 0.25in}
+.tdh_157   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 4pt 0.25in; text-align: justify}
+.tdh_158   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 4pt 1in; text-indent: 0in}
+.tdh_159   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 4pt; text-align: justify}
+.tdh_160   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 4pt; text-align: justify; text-indent: 0.25in}
+.tdh_161   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 4pt; text-align: justify; text-indent: 0.5in}
+.tdh_162   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 6pt 0.25in; text-align: center}
+.tdh_163   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 6pt 0.25in; text-align: justify}
+.tdh_164   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 6pt; text-align: justify}
+.tdh_165   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt 0.25in; text-align: center}
+.tdh_166   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt 0.25in; text-align: justify}
+.tdh_167   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt 0.5in; text-align: justify}
+.tdh_168   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt; text-align: center}
+.tdh_169   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt; text-align: justify}
+.tdh_170   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt; text-align: justify; color: #231F20}
+.tdh_171   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt; text-align: justify; text-indent: 0.5in}
+.tdh_172   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt; text-align: justify; text-indent: 22.5pt}
+.tdh_173   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt; text-align: left}
+.tdh_174   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 9pt; text-align: center}
+.tdh_175   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0 0 9pt; text-align: justify}
+.tdh_176   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: center}
+.tdh_177   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: justify}
+.tdh_178   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: justify; background-color: white; text-indent: 0.5in}
+.tdh_179   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: left}
+.tdh_180   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: right}
+.tdh_181   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 0pt 0 12pt 1.5in; text-align: left}
+.tdh_182   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 12pt 0 8pt; text-align: justify}
+.tdh_183   {font: 10pt Arial, Helvetica, Sans-Serif; margin: 6pt 0; text-align: justify}
+.tdh_184   {font: 10pt Arial, Helvetica, Sans-Serif; width: 100%; border-collapse: collapse}
+.tdh_185   {font: 11pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt; text-align: left; color: #1F3763}
+.tdh_186   {font: 12pt Times New Roman, Times, Serif; margin: 0; text-align: left}
+.tdh_187   {font: 13pt Arial, Helvetica, Sans-Serif; margin: 0 0 4pt; text-align: justify; color: #1F4E79}
+.tdh_188   {font: 13pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt; text-align: left; color: #1F3763}
+.tdh_189   {font: 13pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: right}
+.tdh_190   {font: 14pt Arial, Helvetica, Sans-Serif; margin: 0pt 0pt 6pt; text-align: justify}
+.tdh_191   {font: 16pt Arial, Helvetica, Sans-Serif; color: #1F3763; margin: 0 0 12pt; text-align: center}
+.tdh_192   {font: 20pt Arial, Helvetica, Sans-Serif; margin: 0pt 0pt 6pt; text-align: justify}
+.tdh_193   {font: 24pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: justify}
+.tdh_194   {font: 7pt Times New Roman, Times, Serif}
+.tdh_195   {font: 8pt Arial, Helvetica, Sans-Serif; color: #1F3763}
+.tdh_196   {font: 8pt Arial, Helvetica, Sans-Serif; margin-top: 0; margin-bottom: 0}
+.tdh_197   {font: 8pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: justify}
+.tdh_198   {font: 8pt Arial, Helvetica, Sans-Serif; width: 7.5in}
+.tdh_199   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left}
+.tdh_200   {font: 8pt Courier New, Courier, Monospace; margin: 0 0 0 0.75in; text-indent: -0.75in}
+.tdh_201   {font: 8pt Courier New, Courier, Monospace; margin: 0 0 0 0.75in; text-indent: -0.75in; color: #2E74B5}
+.tdh_202   {font: 8pt Courier New, Courier, Monospace; margin: 0 0 2pt; color: #2E74B5}
+.tdh_203   {font: 8pt Courier New, Courier, Monospace; margin: 0 0 8pt; text-align: left}
+.tdh_204   {font: 8pt Courier New, Courier, Monospace; margin: 0 0 8pt; text-align: left; color: #2E74B5}
+.tdh_205   {font: 8pt Courier New, Courier, Monospace; margin: 0; color: #2E74B5}
+.tdh_206   {font: 8pt Courier New, Courier, Monospace; margin: 0; color: #2E74B5; text-indent: 0.25in}
+.tdh_207   {font: 8pt Courier New, Courier, Monospace; margin: 0; color: #2E74B5; text-indent: 0.5in}
+.tdh_208   {font: 8pt Courier New, Courier, Monospace; margin: 0; color: #70AD47}
+.tdh_209   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left}
+.tdh_210   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left; color: #569CD6}
+.tdh_211   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left; color: #569CD6; text-indent: 0.25in}
+.tdh_212   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left; color: #569CD6; text-indent: 0.5in}
+.tdh_213   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left; color: #608B4E; text-indent: 0.25in}
+.tdh_214   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left; color: #7030A0}
+.tdh_215   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left; color: gray; text-indent: 0.5in}
+.tdh_216   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left; text-indent: 0.5in}
+.tdh_217   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left; text-indent: 0.5in}
+.tdh_218   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-align: left; text-indent: 0.75in}
+.tdh_219   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-indent: 0.25in}
+.tdh_220   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-indent: 0.5in}
+.tdh_221   {font: 8pt Courier New, Courier, Monospace; margin: 0; text-indent: 9pt}
+.tdh_222   {font: 9pt Arial, Helvetica, Sans-Serif; border-collapse: collapse; width: 100%}
+.tdh_223   {font: 9pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt 0.25in; text-align: justify}
+.tdh_224   {font: 9pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: center}
+.tdh_225   {font: 9pt Arial, Helvetica, Sans-Serif; margin: 0; text-align: left}
+.tdh_226   {font: 9pt Arial, Helvetica, Sans-Serif; margin: 9pt 0 0; text-align: center}
+.tdh_227   {font: 9pt Calibri, Helvetica, Sans-Serif; text-align: left; vertical-align: bottom}
+.tdh_228   {font: 9pt Courier New, Courier, Monospace}
+.tdh_229   {font: 9pt Courier New, Courier, Monospace; margin: 0}
+.tdh_230   {font: 9pt Courier New, Courier, Monospace; margin: 0 0 2pt}
+.tdh_231   {font: 9pt Courier New, Courier, Monospace; margin: 0 0 2pt; color: #3A8080}
+.tdh_232   {font: 9pt Courier New, Courier, Monospace; margin: 0 0 8pt; text-align: left}
+.tdh_233   {font: 9pt Courier New, Courier, Monospace; margin: 0; color: #2E74B5}
+.tdh_234   {font: 9pt Courier New, Courier, Monospace; text-align: center; margin-top: 0; margin-bottom: 2pt}
+.tdh_235   {font: bold 10pt Arial, Helvetica, Sans-Serif; color: #1F3763; margin-top: 2pt; margin-bottom: 8pt}
+.tdh_236   {font: bold 11pt Arial, Helvetica, Sans-Serif; color: #1F3763; margin-top: 0; margin-bottom: 6pt}
+.tdh_237   {font: bold 11pt Arial, Helvetica, Sans-Serif; color: #1F3763; margin: 0 0 6pt 0.5in; text-align: justify; text-indent: -0.5in}
+.tdh_238   {font: bold 13pt Arial, Helvetica, Sans-Serif; color: #1F3763; margin-top: 0; margin-bottom: 6pt}
+.tdh_239   {font: bold 13pt Calibri, Helvetica, Sans-Serif; text-align: left; vertical-align: bottom}
+.tdh_240   {font: bold 16pt Arial, Helvetica, Sans-Serif; color: #1F3763; margin-top: 0; margin-bottom: 6pt}
+.tdh_241   {font: bold 16pt Arial, Helvetica, Sans-Serif; color: #2F5496; margin: 0 0 6pt 0.5in; text-align: justify}
+.tdh_242   {font: bold 16pt Arial, Helvetica, Sans-Serif; color: #1F3763 margin: 0 0 6pt 0.5in; text-align: justify; text-indent: -0.5in}
+.tdh_243   {font: bold 16pt Arial, Helvetica, Sans-Serif; color: #1F3763 margin: 0 0 6pt; text-align: justify}
+.tdh_244   {font: bold 24pt Arial, Helvetica, Sans-Serif; margin: 0pt 0pt 6pt; text-align: left}
+.tdh_245   {font: bold 9pt Arial, Helvetica, Sans-Serif; border-collapse: collapse; width: 100%}
+.tdh_246   {font: bold 9pt Arial, Helvetica, Sans-Serif; margin: 0 0 8pt; text-align: center}
+.tdh_247   {font: bold 9pt Arial, Helvetica, Sans-Serif; margin: 0pt; text-align: center}
+.tdh_248   {font: bold 9pt Arial, Helvetica, Sans-Serif; margin: 9pt 0 0; text-align: center}
+.tdh_249   {font: bold 9pt Arial, Helvetica, Sans-Serif; margin: 9pt 0 8pt; text-align: center}
+.tdh_250   {font: italic 10pt Arial, Helvetica, Sans-Serif; color: #1F3763 margin-top: 2pt; margin-bottom: 6pt}
+.tdh_251   {font: italic 10pt Arial, Helvetica, Sans-Serif; color: #1F3763 margin: 0 0 8pt; text-align: justify}
+.tdh_252   {height: 132px; width: 459px}
+.tdh_253   {height: 146px; width: 373px}
+.tdh_254   {height: 147px; width: 487px}
+.tdh_255   {height: 164px; width: 563px}
+.tdh_256   {height: 164px; width: 583px}
+.tdh_257   {height: 179px; width: 491px}
+.tdh_258   {height: 180px; width: 458px}
+.tdh_259   {height: 191px; width: 508px}
+.tdh_260   {height: 194px; width: 551px}
+.tdh_261   {height: 196px; width: 221px}
+.tdh_262   {height: 202px; width: 313px}
+.tdh_263   {height: 203px; width: 624px}
+.tdh_264   {height: 208px; width: 304px}
+.tdh_265   {height: 210px; width: 624px}
+.tdh_266   {height: 219px; width: 457px}
+.tdh_267   {height: 219px; width: 596px}
+.tdh_268   {height: 222px; width: 314px}
+.tdh_269   {height: 228px; width: 624px}
+.tdh_270   {height: 231px; width: 554px}
+.tdh_271   {height: 232px; width: 625px}
+.tdh_272   {height: 234px; width: 568px}
+.tdh_273   {height: 236px; width: 624px}
+.tdh_274   {height: 241px; width: 624px}
+.tdh_275   {height: 242px; width: 445px}
+.tdh_276   {height: 242px; width: 624px}
+.tdh_277   {height: 244px; width: 484px}
+.tdh_278   {height: 246px; width: 336px}
+.tdh_279   {height: 257px; width: 401px}
+.tdh_280   {height: 259px; width: 485px}
+.tdh_281   {height: 261px; width: 592px}
+.tdh_282   {height: 264px; width: 483px}
+.tdh_283   {height: 270px; width: 586px}
+.tdh_284   {height: 271px; width: 447px}
+.tdh_285   {height: 281px; width: 503px}
+.tdh_286   {height: 282px; width: 624px}
+.tdh_287   {height: 284px; width: 401px}
+.tdh_288   {height: 286px; width: 624px}
+.tdh_289   {height: 291px; width: 571px}
+.tdh_290   {height: 297px; width: 624px}
+.tdh_291   {height: 302px; width: 237px}
+.tdh_292   {height: 303px; width: 314px}
+.tdh_293   {height: 307px; width: 619px}
+.tdh_294   {height: 310px; width: 471px}
+.tdh_295   {height: 321px; width: 594px}
+.tdh_296   {height: 337px; width: 526px}
+.tdh_297   {height: 347px; width: 624px}
+.tdh_298   {height: 348px; width: 465px}
+.tdh_299   {height: 351px; width: 469px}
+.tdh_300   {height: 353px; width: 546px}
+.tdh_301   {height: 360px; width: 574px}
+.tdh_302   {height: 384px; width: 438px}
+.tdh_303   {height: 401px; width: 534px}
+.tdh_304   {height: 437px; width: 652px}
+.tdh_305   {height: 442px; width: 565px}
+.tdh_306   {height: 544px; width: 592px}
+.tdh_307   {height: 55px; width: 236px}
+.tdh_308   {height: 694px; width: 599px}
+.tdh_309   {height: 712px; width: 592px}
+.tdh_310   {height: 750px; width: 582px}
+.tdh_311   {height: 751px; width: 592px}
+.tdh_312   {height: 763px; width: 591px}
+.tdh_313   {height: 765px; width: 585px}
+.tdh_314   {height: 770px; width: 568px}
+.tdh_315   {height: 778px; width: 591px}
+.tdh_316   {height: 795px; width: 587px}
+.tdh_317   {height: 796px; width: 592px}
+.tdh_318   {letter-spacing: -0.1pt}
+.tdh_319   {margin-bottom: 6pt}
+.tdh_320   {margin-top: 0in; list-style-type: disc}
+.tdh_321   {margin-top: 18pt; margin-bottom: 6pt}
+.tdh_322   {margin-top: 3pt; margin-bottom: 3pt; width: 100%}
+.tdh_323   {margin: 0}
+.tdh_324   {margin: 0 0 2pt}
+.tdh_325   {padding-bottom: 8pt; text-align: justify}
+.tdh_326   {padding-right: 5.4pt; padding-left: 5.4pt; text-align: justify}
+.tdh_327   {page-break-before: always; margin-top: 6pt}
+.tdh_328   {page-break-before: always; margin-top: 6pt; margin-bottom: 18pt}
+.tdh_329   {text-align: center; padding-top: 12pt; padding-bottom: 6pt; padding-left: 0in}
+.tdh_330   {text-align: center; width: 100%}
+.tdh_331   {text-align: justify}
+.tdh_332   {text-align: left}
+.tdh_333   {text-align: left; text-indent: -10pt; padding-top: 0in; padding-bottom: 0pt; padding-left: 10pt}
+.tdh_334   {text-align: left; text-indent: -10pt; padding-top: 0in; padding-bottom: 0pt; padding-left: 20pt}
+.tdh_335   {text-align: left; vertical-align: bottom}
+.tdh_336   {text-align: left; vertical-align: bottom; background-color: rgb(246,248,250)}
+.tdh_337   {text-align: right; padding-top: 0in; padding-bottom: 0pt}
+.tdh_338   {text-transform: uppercase}
+.tdh_339   {vertical-align: bottom}
+.tdh_340   {vertical-align: bottom; background-color: #F2F2F2}
+.tdh_341   {vertical-align: top}
+.tdh_342   {vertical-align: top; background-color: #F2F2F2}
+.tdh_343   {vertical-align: top; background-color: white}
+.tdh_344   {vertical-align: top; text-align: left}
+.tdh_345   {width: 0}
+.tdh_346   {width: 0.25in}
+.tdh_347   {width: 0.5in}
+.tdh_348   {width: 0.75in}
+.tdh_349   {width: 1%}
+.tdh_350   {width: 1.5in}
+.tdh_351   {width: 10%; text-align: right; padding-top: 0in; padding-bottom: 0pt}
+.tdh_352   {width: 100%}
+.tdh_353   {width: 100%; text-align: right}
+.tdh_354   {width: 13.7pt}
+.tdh_355   {width: 16%}
+.tdh_356   {width: 17%}
+.tdh_357   {width: 18pt}
+.tdh_358   {width: 20%; text-align: right; padding-top: 0in; padding-bottom: 0pt}
+.tdh_359   {width: 21%}
+.tdh_360   {width: 25%}
+.tdh_361   {width: 3%}
+.tdh_362   {width: 31.5pt}
+.tdh_363   {width: 36%}
+.tdh_364   {width: 40.5pt}
+.tdh_365   {width: 55%}
+.tdh_366   {width: 7.5in}
+.tdh_367   {width: 80%; text-align: left; text-indent: -10pt; padding-top: 0in; padding-bottom: 0pt; padding-left: 10pt}
+.tdh_368   {width: 90%; text-align: left; text-indent: -10pt; padding-top: 0in; padding-bottom: 0pt; padding-left: 10pt}
+.tdh_369   {width: 90%; text-align: left; text-indent: -10pt; padding-top: 0in; padding-bottom: 0pt; padding-left: 20pt}
+.tdh_370   {width: 9pt}
