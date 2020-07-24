@@ -1172,7 +1172,7 @@
 
 <p class="tdh_169">The <i>language core dimension</i> specifies the language in which a non-numeric fact is reported. Language values must be represented with a valid BCP 47 language code (for more information, see <a href="https://tools.ietf.org/html/bcp47" target="_blank"><font class="tdh_128"><i><u>IETF BCP 47</u></i></font></a>). Language core dimensions should only be present on concept core dimensions that allow textual information and are optional in this case.</p>
 
-<p class="tdh_169">If data is expected to be used in a multi-language environment, it is highly recommended that the language core dimension be employed. Note that for reports that will be consumed in a primarily English-speaking environment (or an environment where only language is expected), the language core dimension can generally be omitted.</p>
+<p class="tdh_169">If data is expected to be used in a multi-language environment, it is highly recommended that the language core dimension be employed. Note that for reports that will be consumed in a primarily English-speaking environment (or an environment where only one language is expected), the language core dimension can generally be omitted.</p>
 
 <table cellpadding="0" cellspacing="0" width="100%" class="tdh_235">
 <tr class="tdh_341">
@@ -1228,13 +1228,13 @@
 <tr class="tdh_341">
 <td class="tdh_004">Unit</td>
 <td class="tdh_004"> </td>
-<td class="tdh_003">
+<td class="tdh_004">
 <p class="tdh_183">The unit for a numeric value (the unit core dimension). The unit employed must be part of the <a href="https://specifications.xbrl.org/work-product-index-registries-units-registry-1.0.html" target="_blank"><font class="tdh_128"><i><u>XBRL Units Registry</u></i></font></a> (UTR) or otherwise defined. For non-numeric facts, such as a narrative description, the unit core dimension is not used.</p>
 
 <p class="tdh_183">Depending on the application, a numeric value can be represented by multiple facts, each with a specific unit. Alternatively, an entity may disclose data in another currency or measurement.</p>
 </td>
 <td class="tdh_004"> </td>
-<td class="tdh_003">
+<td class="tdh_004">
 <p class="tdh_183">(not shown)</p>
 
 <p class="tdh_183">USD</p>
@@ -1244,7 +1244,7 @@
 <td class="tdh_004"> </td>
 <td class="tdh_004">Defines the time domain for the fact (the period core dimension). This time domain represents the period of time to which a fact is applicable. These are represented in ISO-8601 format.</td>
 <td class="tdh_004"> </td>
-<td class="tdh_003">
+<td class="tdh_004">
 <p class="tdh_183">January</p>
 
 <p class="tdh_183">2019-01-31</p>
@@ -1551,6 +1551,8 @@
 
 </div> <!-- Field: /Page -->
 <p class="tdh_248"> </p>
+
+<p class="tdh_226"><img src="images/tdh_v10_026a.gif" alt="Example 2-2. An XBRL fact with a taxonomy-defined dimension in XML" class="tdh_285"></p>
 
 <p class="tdh_246"><a name="a_Ref8732307"></a>Example 2-2. An XBRL fact with a taxonomy-defined dimension in XML</p>
 
